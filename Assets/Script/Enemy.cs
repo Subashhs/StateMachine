@@ -8,9 +8,9 @@ public class Enemy : MonoBehaviour
     public HuntState huntState = new HuntState();
 
     public Transform playerTransform;  // Assign in the Inspector
-    public float detectionRange = 10f;
-    public float chaseRange = 5f;
-    public float speed = 2f;
+    public float detectionRange = 15f;
+    public float chaseRange = 510f;
+    public float speed = 5f;
 
     private IEnemyState currentState;
 
